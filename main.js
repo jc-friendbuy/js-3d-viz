@@ -7,4 +7,4 @@ var Main = (function (three) {
     }
 
     return self;
-})(three);
+})(THREE);
