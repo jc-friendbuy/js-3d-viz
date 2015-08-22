@@ -1,8 +1,8 @@
-var Main = (function (THREE) {
+var Main = (function(THREE) {
     // Self declaration for holding module public members
     var self = {};
 
-    self.test_print = function () {
+    self.test_print = function() {
         console.log("Yes, this is dog");
     }
 
