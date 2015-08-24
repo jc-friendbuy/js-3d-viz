@@ -1,10 +1,6 @@
 var Main = (function(THREE) {
-    // Self declaration for holding module public members
+    // Self declaration for holding public module members
     var self = {};
-
-    self.test_print = function() {
-        console.log("Yes, this is dog");
-    }
 
     self.test_basic_geometry = function() {
         var scene = new THREE.Scene();
