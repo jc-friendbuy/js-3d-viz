@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<title>Testing top-level require</title>
+		<style>
+			body { margin: 0; }
+		</style>
+	</head>
+	<body>
+		<script src="../../lib/front_end/module_definition.js"></script>
+        <script src="./test_1.js"></script>
+		<script>
+            var test_1 = require("test_1");
+            test_1.test();
+        </script>
+	</body>
+</html>
