@@ -1,3 +1,4 @@
+
 var Main = function(THREE) {
     // Self declaration for holding public module members
     var exports = {};
